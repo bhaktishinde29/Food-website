@@ -1,0 +1,147 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ================= HEADER ================= */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 65px;
+  background-color: #FF8C42;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #3A2E2A;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+/*action bar*/
+.actionbar{text-decoration: none;
+  color: #3A2E2A;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actionbar:hover {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+/* Search Bar */
+.searchbar {
+  width: 300px;
+}
+
+.searchinput {
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 15px;
+  outline: none;
+  background-color: #FFF7ED;
+  color: #3A2E2A;
+}
+
+/* ================= BANNER ================= */
+.logo_container {
+  height: 180px;
+  background-image: url(back.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ================= MAIN ================= */
+.banner {
+  background-color: #FFF7ED;
+  padding: 40px 20px;
+}
+
+/* Heading */
+.catergories-headings p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3A2E2A;
+  margin-bottom: 30px;
+}
+
+/* ================= FOOD BOXES ================= */
+.box {
+  width: 200px;
+  height: 220px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin: 15px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+/* Hover Effect */
+.box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ================= FOOTER ================= */
+.footer-container {
+  background-color: #E76F51;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer-column a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #3A2E2A;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+}
