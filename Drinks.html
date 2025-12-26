@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drinks</title>
+
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+
+        /* Top Section */
+        .top{
+            height:170px;
+            background: linear-gradient(to right,#5ee7df,#cba2e5);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .top p{
+            font-size:40px;
+            font-family:cursive;
+            color:#083d3d;
+            text-align:center;
+        }
+
+        /* Container */
+        .boxcontainer1{
+            background-color:#f1fffd;
+            padding:40px;
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap:wrap;
+        }
+
+        /* Box */
+        .box{
+            height:320px;
+            width:220px;
+            background-color:white;
+            border-radius:20px;
+            box-shadow:0 6px 15px rgba(0,0,0,0.15);
+            margin:20px;
+            transition:0.3s;
+            text-align:center;
+        }
+
+        .box:hover{
+            transform:scale(1.08);
+             box-shadow: 0 10px 25px rgba(147, 36, 226, 0.715);
+        }
+
+        /* Image (unchanged position & size) */
+        .box img{
+            height:240px;
+            width:220px;
+            border-radius:20px 20px 0 0;
+        }
+
+        /* Details under image */
+        .details h4{
+            font-size:16px;
+            color:#3b2f2f;
+        }
+
+        .price{
+            color:#2e8b57;
+            font-weight:bold;
+        }
+
+        .rating{
+            color:#f4b400;
+            font-size:14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="top">
+        <p>" We know you are hot... so we brought some cold drinks... "</p>
+    </nav>
+
+    <hr>
+
+    <!-- FIRST ROW -->
+    <div class="boxcontainer1">
+
+        <div class="box">
+            <img src="J2.jpg" alt="Strawberry Milkshake">
+            <div class="details">
+                <h4>Strawberry Milkshake</h4>
+                <p class="price">₹120</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="J1.jpg" alt="Watermelon Juice">
+            <div class="details">
+                <h4>Watermelon Juice</h4>
+                <p class="price">₹90</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="J3.jpg" alt="Cold Coffee">
+            <div class="details">
+                <h4>Cold Coffee</h4>
+                <p class="price">₹110</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="J4.jpg" alt="Chocolate Scoop">
+            <div class="details">
+                <h4>Chocolate Scoop</h4>
+                <p class="price">₹130</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECOND ROW -->
+    <div class="boxcontainer1">
+
+        <div class="box">
+            <img src="J5.jpg" alt="Lemonade">
+            <div class="details">
+                <h4>Lemonade</h4>
+                <p class="price">₹70</p>
+                <p class="rating">⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="J6.jpg" alt="Elaichi Scoop">
+            <div class="details">
+                <h4>Elaichi Scoop</h4>
+                <p class="price">₹100</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="J7.jpg" alt="Grape Juice">
+            <div class="details">
+                <h4>Grape Juice</h4>
+                <p class="price">₹95</p>
+                <p class="rating">⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="J8.jpg" alt="Red Velvet Shake">
+            <div class="details">
+                <h4>Red Velvet Shake</h4>
+                <p class="price">₹150</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

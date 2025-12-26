@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sweets</title>
+
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+
+        /* Top Section */
+        .top{
+            height:170px;
+            background: linear-gradient(to right,#f6b93b,#f8e7b5);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .top p{
+            font-size:40px;
+            font-family:cursive;
+            color:#5a3a1b;
+            text-align:center;
+        }
+
+        /* Container */
+        .boxcontainer1{
+            background-color:#fff6e0;
+            padding:40px;
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap:wrap;
+        }
+
+        /* Box */
+        .box{
+            height:320px;
+            width:220px;
+            background-color:white;
+            border-radius:20px;
+            box-shadow:0 6px 15px rgba(0,0,0,0.15);
+            margin:20px;
+            transition:0.3s;
+            text-align:center;
+        }
+
+        .box:hover{
+            transform:scale(1.08);
+             box-shadow: 0 10px 25px rgba(206, 110, 31, 0.913);
+        }
+
+        /* Image (unchanged position & size) */
+        .box img{
+            height:240px;
+            width:220px;
+            border-radius:20px 20px 0 0;
+        }
+
+        /* Details under image */
+        .details h4{
+            font-size:16px;
+            color:#3b2f2f;
+        }
+
+        .price{
+            color:#2e8b57;
+            font-weight:bold;
+        }
+
+        .rating{
+            color:#f4b400;
+            font-size:14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="top">
+        <p>" This is as sweet as you... "</p>
+    </nav>
+
+    <hr>
+
+    <!-- FIRST ROW -->
+    <div class="boxcontainer1">
+
+        <div class="box">
+            <img src="gulla.jpg" alt="Rasgulla">
+            <div class="details">
+                <h4>Rasgulla</h4>
+                <p class="price">₹120</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="barfi.jpg" alt="Barfi">
+            <div class="details">
+                <h4>Barfi</h4>
+                <p class="price">₹190</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="halwa.jpg" alt="Halwa">
+            <div class="details">
+                <h4>Halwa</h4>
+                <p class="price">₹110</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="suji ka halwa.jpg" alt="Suji halwa">
+            <div class="details">
+                <h4>Suji halwa</h4>
+                <p class="price">₹99</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECOND ROW -->
+    <div class="boxcontainer1">
+
+        <div class="box">
+            <img src="modak.jpg" alt="Modak">
+            <div class="details">
+                <h4>Modak</h4>
+                <p class="price">₹70</p>
+                <p class="rating">⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="malai.jpg" alt="Ras malai">
+            <div class="details">
+                <h4>Ras malai</h4>
+                <p class="price">₹100</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="laddo.jpg" alt="Motichur laddo">
+            <div class="details">
+                <h4>Motichur laddo</h4>
+                <p class="price">₹95</p>
+                <p class="rating">⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="jelabi.jpg" alt="jelabi">
+            <div class="details">
+                <h4>Jelabi</h4>
+                <p class="price">₹150</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

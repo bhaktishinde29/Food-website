@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Flavour Fusion</title>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF7F0;
+    color: #2C2C2C;
+}
+
+/* Header */
+.contact-header {
+    background-color: #C0392B;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+.contact-header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Main Container */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+}
+
+/* Contact Info */
+.contact-info {
+    width: 40%;
+    min-width: 280px;
+}
+
+.contact-info h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.contact-info i {
+    color: #C0392B;
+    margin-right: 10px;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Contact Form */
+.contact-form {
+    width: 45%;
+    min-width: 280px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #C0392B;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #C0392B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #A93226;
+}</style>
+    
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you 🍽</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-container">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+
+            <p><i class="fa fa-envelope"></i> flavour_fusions51@gmail.com</p>
+            <p><i class="fa fa-phone"></i> +91 XXXXX XXX51</p>
+            <p><i class="fa fa-location-dot"></i>Charapati Chowk,Roadside area near fountain school,<br>Ahilyanagar,maharastra,India
+                 country ,India</p>
+
+            <p class="note">We usually respond within 24 hours.</p>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Mobile Number" required>
+                <textarea placeholder="Your Message" rows="5"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

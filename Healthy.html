@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drinks</title>
+
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+
+        /* Top Section */
+        .top{
+            height:170px;
+            background: linear-gradient(to right,#2ECC71,#A3E635);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .top p{
+            font-size:40px;
+            font-family:cursive;
+            color:#14532D;
+            text-align:center;
+        }
+
+        /* Container */
+        .boxcontainer1{
+            background-color:#F6FFF8;
+            padding:40px;
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap:wrap;
+        }
+
+        /* Box */
+        .box{
+            height:320px;
+            width:220px;
+            background-color:#FFFFFF;
+            border-radius:20px;
+            box-shadow:0 6px 15px rgba(0,0,0,0.15);
+            margin:20px;
+            transition:0.3s;
+            text-align:center;
+        }
+
+        .box:hover{
+            transform:scale(1.08);
+            box-shadow: 0 10px 25px rgba(46,204,113,0.4);
+        }
+
+        /* Image (unchanged position & size) */
+        .box img{
+            height:240px;
+            width:220px;
+            border-radius:20px 20px 0 0;
+        }
+
+        /* Details under image */
+        .details h4{
+            font-size:16px;
+            color:#3b2f2f;
+        }
+
+        .price{
+            color: #4D7C0F;;
+            font-weight:bold;
+        }
+
+        .rating{
+            color:#FACC15;
+            font-size:14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="top">
+        <p>" Leaf your worries behind....<br>        ....   Lettuce be healthy today..."</p>
+    </nav>
+
+    <hr>
+
+    <!-- FIRST ROW -->
+    <div class="boxcontainer1">
+
+        <div class="box">
+            <img src="S1.jpg" alt="Salads">
+            <div class="details">
+                <h4>Cucumber Salads</h4>
+                <p class="price">₹120</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="S2.jpg" alt="Salads">
+            <div class="details">
+                <h4>Fruit bowl</h4>
+                <p class="price">₹90</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="S3.jpg" alt="Salads">
+            <div class="details">
+                <h4>Sprout salads</h4>
+                <p class="price">₹110</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="S4.jpg" alt="Salads">
+            <div class="details">
+                <h4>Egg bowl Salads</h4>
+                <p class="price">₹130</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECOND ROW -->
+    <div class="boxcontainer1">
+
+        <div class="box">
+            <img src="S5.jpg" alt="salads">
+            <div class="details">
+                <h4>Tofu egg</h4>
+                <p class="price">₹70</p>
+                <p class="rating">⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="S6.jpg" alt="Salads">
+            <div class="details">
+                <h4>Toast brunch</h4>
+                <p class="price">₹100</p>
+                <p class="rating">⭐⭐⭐⭐☆</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="S7.jpg" alt="Salads">
+            <div class="details">
+                <h4>Vegan lentil bowl</h4>
+                <p class="price">₹95</p>
+                <p class="rating">⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="S8.jpg" alt="Salads">
+            <div class="details">
+                <h4>Creamy friuts</h4>
+                <p class="price">₹150</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
